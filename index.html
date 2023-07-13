@@ -1,0 +1,46 @@
+<!-- felipesalinasmolina/Modulo3_Desafio1_FelipeSalinasMolina -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1 Modulo3</title>
+     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/35944b68a5.js" crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+
+    <section class="producto">
+        <div class="imagenpelota" title="Balón Champions 2023">
+        <img src="assets/img/Minipelota_UCL_Estambul_Blanco.jpg" alt="Pelota oficial UEFA ChampionsLeague"></div>
+        <h1>Balon Champions League 2022-23</h1>
+        <input type="number"
+        placeholder="Ingrese cantidad"
+        id="userCantidad"
+        min="1"
+        >
+
+        <input type="text"
+        placeholder="Ingrese color"
+        id="userColor"
+        >
+
+        <span id="precio">Precio: $45.000</span>
+
+        <div>
+            <button id="Total">Calcular Total</button>
+
+
+        <aside id="Resultados">
+            <p>Total: $ <span id="valorTotal">0</span></p>
+            <p>Cantidad: <span id="cantidadBalones"></span></p>
+            <p>Color: </p>
+            <div id="colorUsuario" class="circulo"></div>
+        </aside>
+    </section>    
+<!-- código javascripst -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
